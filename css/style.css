@@ -690,4 +690,30 @@ section{
   .team-member:hover .member-description {
     display: block;
   }
+
+    
+  .about-us table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .about-us table th, .about-us table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .about-us table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .about-us table tfoot td {
+    font-weight: bold;
+  }
+  
+  .about-us table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
   
